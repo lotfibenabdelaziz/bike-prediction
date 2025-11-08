@@ -1,4 +1,4 @@
-name: CI Pipeline - Bike Rental Prediction 🚴‍♂️
+name: 🚀 CI Pipeline ; Streamlit & MLFlow Project
 
 on:
   push:
@@ -11,28 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Step 1️⃣ - Checkout code
-    - name: 📥 Checkout repository
-      uses: actions/checkout@v3
+      # Checkout code
+      - name: 🧾 Checkout Repository
+        uses: actions/checkout@v3
 
-    # Step 2️⃣ - Set up Python environment
-    - name: 🐍 Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      # Set up Python
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
 
-    # Step 3️⃣ - Install dependencies
-    - name: 📦 Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      # Move to the Notebook directory
+      - name: 📂 Navigate to Notebooks Folder
+        working-directory: ./Notebooks
+        run: echo "Switched to Notebooks directory"
 
-    # Step 4️⃣ - Run tests with pytest
-    - name: 🧪 Run tests
-      run: |
-        pytest --maxfail=1 --disable-warnings -q
+      # Install dependencies
+      - name: 📦 Install Dependencies
+        working-directory: ./Notebooks
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    # Step 5️⃣ - Build Docker image
-    - name: 🐳 Build Docker image
-      run: |
-        docker build -t bike-prediction-app:latest .
+      # Run tests (Pytest)
+      - name: 🧪 Run Unit Tests
+        working-directory: ./Notebooks
+        run: pytest Test_Training.py --maxfail=1 --disable-warnings -q
+
+      # Build Docker image
+      - name: 🐳 Build Docker Image
+        working-directory: ./Notebooks
+        run: docker build -t bike-prediction-app .
+
+    
