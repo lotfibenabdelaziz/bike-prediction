@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c43d6ca4132c40dfa1ca31f679c6467e/artifacts
+end_time: 1762553410770
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c43d6ca4132c40dfa1ca31f679c6467e
+run_name: stately-cat-398
+run_uuid: c43d6ca4132c40dfa1ca31f679c6467e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762553410353
+status: 4
+tags: []
+user_id: bcs

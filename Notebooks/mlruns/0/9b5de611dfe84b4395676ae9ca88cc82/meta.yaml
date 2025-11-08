@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/9b5de611dfe84b4395676ae9ca88cc82/artifacts
+end_time: 1761753694487
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b5de611dfe84b4395676ae9ca88cc82
+run_name: trusting-duck-598
+run_uuid: 9b5de611dfe84b4395676ae9ca88cc82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761753693516
+status: 4
+tags: []
+user_id: bcs

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b6a05158c8d147a6ba9c8806a8ecaae4/artifacts
+end_time: 1762553384956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6a05158c8d147a6ba9c8806a8ecaae4
+run_name: languid-asp-595
+run_uuid: b6a05158c8d147a6ba9c8806a8ecaae4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762553384671
+status: 4
+tags: []
+user_id: bcs

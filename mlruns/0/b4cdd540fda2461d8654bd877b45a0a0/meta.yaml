@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b4cdd540fda2461d8654bd877b45a0a0/artifacts
+end_time: 1762506253996
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4cdd540fda2461d8654bd877b45a0a0
+run_name: wistful-lark-98
+run_uuid: b4cdd540fda2461d8654bd877b45a0a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762506247547
+status: 4
+tags: []
+user_id: bcs

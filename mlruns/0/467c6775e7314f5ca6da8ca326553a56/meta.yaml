@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/467c6775e7314f5ca6da8ca326553a56/artifacts
+end_time: 1762506902389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 467c6775e7314f5ca6da8ca326553a56
+run_name: amazing-shrike-482
+run_uuid: 467c6775e7314f5ca6da8ca326553a56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762506888802
+status: 3
+tags: []
+user_id: bcs

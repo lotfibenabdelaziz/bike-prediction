@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/cb1b6daddfe140ecbeecfb97ccb2aca1/artifacts
+end_time: 1761758392686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb1b6daddfe140ecbeecfb97ccb2aca1
+run_name: sneaky-cub-868
+run_uuid: cb1b6daddfe140ecbeecfb97ccb2aca1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761758392128
+status: 4
+tags: []
+user_id: bcs

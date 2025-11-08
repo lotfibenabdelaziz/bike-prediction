@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5d01c71f6084466d812095c10c4e06dc/artifacts
+end_time: 1762524126123
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5d01c71f6084466d812095c10c4e06dc
+run_name: incongruous-jay-470
+run_uuid: 5d01c71f6084466d812095c10c4e06dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762524095752
+status: 3
+tags: []
+user_id: bcs

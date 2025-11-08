@@ -1,0 +1,16 @@
+# Core libraries
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+scipy==1.15.3
+seaborn==0.13.2
+joblib==1.5.0
+matplotlib==3.7.1
+
+
+# Streamlit web app
+streamlit==1.51.0
+
+# MLflow tracking (optional if you’re logging experiments)
+mlflow==2.14.2
+

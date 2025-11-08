@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/2244e6310a99463abe7585ac8d580312/artifacts
+end_time: 1761753596905
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2244e6310a99463abe7585ac8d580312
+run_name: polite-crow-659
+run_uuid: 2244e6310a99463abe7585ac8d580312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761753596638
+status: 4
+tags: []
+user_id: bcs

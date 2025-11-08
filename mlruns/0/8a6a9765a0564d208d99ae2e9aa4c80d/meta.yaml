@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8a6a9765a0564d208d99ae2e9aa4c80d/artifacts
+end_time: 1762524146885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a6a9765a0564d208d99ae2e9aa4c80d
+run_name: RF_with_plot
+run_uuid: 8a6a9765a0564d208d99ae2e9aa4c80d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762524137182
+status: 3
+tags: []
+user_id: bcs

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/3e4307a5ea2d48019b54dd1df1281384/artifacts
+end_time: 1761755153553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e4307a5ea2d48019b54dd1df1281384
+run_name: loud-sow-612
+run_uuid: 3e4307a5ea2d48019b54dd1df1281384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761755153325
+status: 4
+tags: []
+user_id: bcs

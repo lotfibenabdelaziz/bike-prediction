@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/031de882b9ec4b07ab6110af0d01d135/artifacts
+end_time: 1761758424502
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 031de882b9ec4b07ab6110af0d01d135
+run_name: shivering-cat-931
+run_uuid: 031de882b9ec4b07ab6110af0d01d135
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761758413553
+status: 3
+tags: []
+user_id: bcs

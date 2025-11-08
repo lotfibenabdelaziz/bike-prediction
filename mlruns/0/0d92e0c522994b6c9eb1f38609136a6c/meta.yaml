@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/0d92e0c522994b6c9eb1f38609136a6c/artifacts
+end_time: 1762552555555
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d92e0c522994b6c9eb1f38609136a6c
+run_name: abundant-snail-662
+run_uuid: 0d92e0c522994b6c9eb1f38609136a6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762552532197
+status: 3
+tags: []
+user_id: bcs

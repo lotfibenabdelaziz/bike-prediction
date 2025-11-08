@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/bcs/Desktop/mlflow/Notebooks/mlruns/0/1024c298493a48029b84fe372bc5053e/artifacts
+end_time: 1761758380471
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1024c298493a48029b84fe372bc5053e
+run_name: loud-mouse-45
+run_uuid: 1024c298493a48029b84fe372bc5053e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761758380018
+status: 4
+tags: []
+user_id: bcs
