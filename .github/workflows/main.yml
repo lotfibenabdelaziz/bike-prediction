@@ -13,13 +13,13 @@ jobs:
     steps:
     # Step 1️⃣ - Checkout code
     - name: 📥 Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     # Step 2️⃣ - Set up Python environment
     - name: 🐍 Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
 
     # Step 3️⃣ - Install dependencies
     - name: 📦 Install dependencies
