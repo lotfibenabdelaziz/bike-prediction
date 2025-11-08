@@ -36,16 +36,3 @@ jobs:
     - name: 🐳 Build Docker image
       run: |
         docker build -t bike-prediction-app:latest .
-
-    # Step 6️⃣ - Optional: Push Docker image to Docker Hub
-    - name: 📤 Push to Docker Hub (optional)
-      if: secrets.DOCKERHUB_USERNAME != '' && secrets.DOCKERHUB_TOKEN != ''
-      run: |
-        echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
-        docker tag bike-prediction-app:latest ${{ secrets.DOCKERHUB_USERNAME }}/bike-prediction-app:latest
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/bike-prediction-app:latest
-
-    # Step 7️⃣ - Verify Streamlit app runs locally
-    - name: 🚀 Streamlit sanity check
-      run: |
-        streamlit hello || echo "Streamlit app sanity check passed ✅"
